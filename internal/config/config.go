@@ -18,6 +18,17 @@ const (
 	TracingSampleRate = "tracing.samplerate"
 	TracingService    = "tracing.service"
 	TracingVersion    = "tracing.version"
+
+	PostgresConn = "postgres.conn"
+
+	DragonflyHost = "dragonfly.host"
+	DragonflyPort = "dragonfly.port"
+
+	BatchSize  = "batch.size"
+	BatchDelay = "batch.delay"
+
+	WriterWorkers = "writer.workers"
+	ReaderWorkers = "reader.workers"
 )
 
 func NewConfig() (*koanf.Koanf, error) {
