@@ -36,7 +36,7 @@ services:
 
       # workers
       SM_WRITER_WORKERS: "2"
-      SM_READER_WORKERS: "5"
+      SM_READER_WORKERS: "10"
 
       # batch
       SM_BATCH_SIZE: "10000000"
